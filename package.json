@@ -1,0 +1,32 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server",
+    "build": "cross-env NODE_ENV=production tsc",
+    "preview": "cross-env NODE_ENV=production node server"
+  },
+  "keywords": [],
+  "author": "musa",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.6",
+    "@types/node": "^20.4.4",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASCII26/chatbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ASCII26/chatbot/issues"
+  },
+  "homepage": "https://github.com/ASCII26/chatbot#readme"
+}
